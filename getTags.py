@@ -3,7 +3,7 @@
 
 import xml.etree.ElementTree as ET
 
-xmltree = ET.parse('/home/musadiq/Desktop/data/NCT02645721.xml') 
+xmltree = ET.parse('/home/musadiq/Desktop/data/NCT02645604.xml') 
 
 elemlist = []
 for elem in xmltree.iter():
